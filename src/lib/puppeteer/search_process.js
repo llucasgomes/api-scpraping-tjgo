@@ -3,7 +3,7 @@ import { url } from '../../constants'
 import { isNotSearch, processo } from '../data/data'
 
 export async function scraping(numberProcess) {
-  const browser = await puppeteer.launch({ headless: false })
+  const browser = await puppeteer.launch({ headless: 'new' })
   const page = await browser.newPage()
 
   // ABRINDO A PAGINA WEB COM A URL DESIGNADA

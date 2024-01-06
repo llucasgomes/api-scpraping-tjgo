@@ -1,15 +1,24 @@
-# api-scpraping-tjgo
+# Projeto de Extração de Dados - API PJD TJGO
 
-To install dependencies:
+## Descrição
+Este projeto consiste em uma API desenvolvida com Express, Puppeteer e CORS para extrair dados de consultas de processo no site do Tribunal de Justiça do Estado de Goiás (https://pjd.tjgo.jus.br/).
 
-```bash
-bun install
-```
+## Tecnologias Utilizadas
+- **Express**: Framework web para Node.js.
+- **Puppeteer**: Biblioteca Node.js para automação de browsers.
+- **CORS**: Middleware para habilitar acesso a recursos de diferentes origens.
 
-To run:
+## Funcionalidades
+1. **Extração de Dados de Processos:**
+   - Utiliza o Puppeteer para realizar consultas e extrair informações detalhadas de processos no site do TJGO.
 
-```bash
-bun run index.ts
-```
+2. **API RESTful:**
+   - Implementa rotas RESTful com Express para interação com a aplicação.
 
-This project was created using `bun init` in bun v1.0.7. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+## Como Usar
+1. Clone o repositório.
+2. Instale as dependências utilizando `npm install`.
+3. Configure as opções de scraping no arquivo de configuração.
+4. Execute a aplicação com `npm start`.
+
+
