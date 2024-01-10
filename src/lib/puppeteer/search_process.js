@@ -1,6 +1,7 @@
 import puppeteer from 'puppeteer'
-import { url } from '../../constants'
-import { isNotSearch, processo } from '../data/data'
+import { url } from '../../constants/index.js'
+import { isNotSearch, processo } from '../data/data.js'
+
 
 export async function scraping(numberProcess) {
   const browser = await puppeteer.launch({ headless: 'new' })
@@ -224,5 +225,5 @@ export async function scraping(numberProcess) {
 
   await browser.close()
 
-  console.timeEnd('Tempo: ')
+  
 }

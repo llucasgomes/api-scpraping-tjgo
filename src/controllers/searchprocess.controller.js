@@ -1,5 +1,5 @@
-import { isNotSearch, processo } from '../lib/data/data'
-import { scraping } from '../lib/puppeteer/search_process'
+import { isNotSearch, processo } from '../lib/data/data.js'
+import { scraping } from '../lib/puppeteer/search_process.js'
 
 export const getProcess = async (req, res) => {
   // RECEBER OS DADOS
