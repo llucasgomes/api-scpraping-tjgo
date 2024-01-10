@@ -11,4 +11,4 @@ app.use(cors())
 
 app.use('/', routes)
 
-app.listen(8800, () => console.log('rodando na porta 8800'))
+app.listen(8000, () => console.log('rodando na porta 8000'))
