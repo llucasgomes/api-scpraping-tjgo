@@ -1,15 +1,14 @@
 # api-oficial-ghalba
 
-To install dependencies:
+## Como Usar
+1. Clone o repositório.
+2. Instale as dependências utilizando `npm install`.
+3. Execute a aplicação.
 
-```bash
-bun install
-```
+## POST
+```json
+http://localhost:8800/number_process
 
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.0.7. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+{
+  "searchProcess":"0000000-00.0000.0.00.0000"
+}
