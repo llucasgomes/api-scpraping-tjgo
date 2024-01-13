@@ -9,7 +9,7 @@ export async function scraping(number_process) {
   console.time('Tempo: ')
   
   
-  const browser = await puppeteer.launch({ headless: false });
+  const browser = await puppeteer.launch({ headless: "new" });
   const page = await browser.newPage()
 
   //ABRINDO A PAGINA WEB COM A URL DESIGNADA
