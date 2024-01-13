@@ -11,4 +11,4 @@ app.use(cors());
 
 app.use("/", routes);
 
-app.listen(5320, ()=> console.log("rodando na porta 5320"));
+app.listen(3000, ()=> console.log("rodando na porta 3000"));
